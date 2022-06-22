@@ -1,6 +1,6 @@
 package test2;
 
-public class ProductTest {
+public class ProductTest2 {
 //작성자: 이민호
 	public static void main(String[] args) {
 		// 13
@@ -29,8 +29,8 @@ public class ProductTest {
 		
 		// 16
 		for (Product temp : cart) {
-			if (temp != null && temp instanceof Bike)
-				System.out.println(temp + ((Bike) temp).ride());
+			if (temp != null && temp instanceof Bike2)
+				System.out.println(temp + ((Bike2) temp).ride());
 		}
 
 	}

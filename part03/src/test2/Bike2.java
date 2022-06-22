@@ -1,6 +1,6 @@
 package test2;
 //작성자: 이민호
-public class Bike extends Product{
+public class Bike2 extends Product{
 	//4
 	@Override
 	public String sell(Object object) {
@@ -18,11 +18,11 @@ public class Bike extends Product{
 		this.speed = speed;
 	}
 	//7
-	public Bike() {
+	public Bike2() {
 		
 	}
 	
-	public Bike(int price, String prdName, int speed) {
+	public Bike2(int price, String prdName, int speed) {
 		this.prdName= prdName;
 		this.price= price;
 		this.speed= speed;
